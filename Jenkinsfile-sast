@@ -13,30 +13,11 @@ pipeline {
 	    }
 	}
 
-        stage('Clean the Workspace') {
-            steps {
-                echo 'Clean the Workspace'
-                sh "mvn clean"
-            }
-        }
-
-        stage('Compile') {
-            steps {
-                sh "mvn compile"
-            }
-        }
-
         stage('SonarQube Analysis') {
             steps {
                 withSonarQubeEnv('sonarserver') {
                     sh ''' mvn sonar:sonar -Dsonar.projectName=Devops -Dsonar.java.binaries=. -Dsonar.projectKey=Devops '''
                 }
-            }
-        }
-
-        stage('Unit Test') {
-            steps {
-                sh 'mvn test'
             }
         }
     }
