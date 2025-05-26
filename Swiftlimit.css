@@ -1,0 +1,331 @@
+﻿
+/*General div classes*/
+body {
+}
+.main_container{
+    width:100%;
+    height:auto;
+    background:white;
+    margin:0px;
+    padding:0px;
+    display:block;
+    /*border:1px solid #000000;*/
+}
+.menu_container{
+    width:20%;
+    margin-left:1%;
+    display:inline-block;
+    /*border:1px solid #ff6a00;*/
+    float:left;
+    height:700px;
+
+}
+.footer_div{
+    text-align:center;  
+    width:100%;   
+    font-family:Calibri;
+    font-size:medium;  
+    background-color:#e5d6f3;  
+    color:#1b392e;
+    font-size:medium;
+    display:block;
+    border:1px solid #000000;
+}
+
+
+.textbox_col_div{
+    width:100%;
+    height:auto;
+    /*border:1px solid #000000;*/
+    display:block;
+    margin-top:20px;
+   
+}
+
+.Limit_tracking_div{
+    width:100%;
+    /*border:1px solid #1756d9;*/
+    min-height:500px;
+    margin-top:20px;
+
+}
+.table_output_css{
+    width:100%;
+    height:300px;
+    /*border:1px solid #ab7afc;*/
+    display:block;
+    margin-top:20px;
+   
+}
+
+
+
+
+.report_container{
+    width:70%;
+    margin-left:5%;
+    display:inline-block;
+    /*border:1px solid #00ff21;*/
+    float:left;
+    min-height:700px;
+
+}
+.heading_css{
+    width:100%;
+    text-align:justify;
+    padding-top:10px;
+    padding-bottom:10px;
+     /*border:1px solid #ffd800;*/
+     background:#f1fad4;
+}
+
+
+
+/*Labels and text section*/
+.head_lbl{  
+    font-family:'Cinzel', serif;
+    margin-left:5%;
+    font-size:23px;
+    color:#1756d9;
+}
+
+.logo_css{
+    width:100%;
+    height:70px;
+      background:url(/Resources/BCCBLOGO1.bmp) no-repeat;
+       background-size: contain;
+}
+.msg_div{
+    width:100%;
+    color:#5ddd19;
+}
+.textbox_cl{
+    width:30%;
+    margin-left:5%;
+    color:#921d6c;
+    background:#f3ebf7;
+    padding-top:5px;
+    padding-bottom:5px;
+    display:inline-block;
+    float:left;
+ text-align:center;
+ border:1px thin #ab7afc;
+
+
+}
+
+.textbox_cl:focus{
+       color:#1527f1;
+    background:#f6f196;
+    outline:none;
+    border:1px thin #5ddd19;
+}
+.btn_container{
+    width:100%;
+    height:300px;   
+    margin-top:100px;
+}
+
+.btn_cls_tbl{
+     width: 10%;
+    margin-left: 5%;
+    color: #ab7afc;
+    background: #f8d4d4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*border: 1px thin #ab7afc;*/
+    outline: none; 
+    border:none;  
+    display:inline-block;
+}
+
+.btn_cls_tbl:hover{
+     color: #5ddd19;
+    background: #d4fae7;
+}
+.btn_cls_act{
+     width:60%;
+   margin-left:20%;
+   margin-top:10px;
+   background:#7af5f5;
+   color:#ff0000;
+   padding-top:10px;
+   padding-bottom:10px;
+   border:none;
+   font-family:'Cinzel', serif;
+}
+
+.btn_cls{
+    width:60%;
+   margin-left:20%;
+   margin-top:10px;
+   background:#f3ebf7;
+   color:#ff0000;
+   padding-top:10px;
+   padding-bottom:10px;
+   border:none;
+   font-family:'Cinzel', serif;
+}
+
+.btn_cls_act:hover{
+     background:#808080;
+   color:white;
+}
+
+.btn_cls:hover{
+     background:#808080;
+   color:white;
+}
+.btn_search {
+    width: 10%;
+    margin-left: 5%;
+    color: #921d6c;
+    background: #f1fad4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px thin #ab7afc;
+    outline: none;   
+    display:inline-block;
+  
+}
+.btn_search:hover{
+      color: #ff6a00;
+    background: #1527f1;
+}
+.information_lbl_css{
+    width:80%;
+    margin-left:10%;
+    color:black;
+    font-size:18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+/*GIF*/
+
+.Lod_gif_img{ 
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:100px;
+    left:50%;
+      background-size: cover;   
+      display:none;
+}
+.gif_img{
+ object-fit: cover;
+  background-size: cover;
+    opacity: 0.4;
+}
+
+/*Tables*/
+
+.result_tbl{
+    width:100%; 
+    border-collapse:collapse;
+
+}
+
+.tbl_th{
+    color:#921d6c;
+    background:#cdf7f1;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+    font-weight:bold;
+ 
+}
+
+.tbl_td{
+     color:#094124;
+    background:#f2f1f0;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+}
+
+.tbl_td_lal{
+    color:#094124;
+    background:#fc1a13;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+}
+
+.moni_tbl{
+    width:100%;
+    height:auto;
+    border-collapse:separate;
+    border-spacing:5px;
+}
+
+.info_tbl_td{
+    width:20%;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    background:#f3ebf7;
+    text-align: right;
+    padding-right:5px;
+    
+}
+.info_tbl_td_1{
+ width:20%;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    background:#f3ebf7;
+    text-align: left;
+    padding-left:5px;
+}
+
+.info_tbl_td_2{
+    width:20%;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    background:#f6603e;
+    text-align: left;
+    padding-left:5px;
+}
+
+.report_td{
+    width:20%;
+     padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    background:#d4faf9;
+    text-align: center;
+    padding-left:5px;
+}
+.report_td_2{
+     width:20%;
+     padding-top:5px;
+    padding-bottom:5px;
+    font-family: 'Abel', sans-serif;
+    color:black;
+    background:#d4faf9;
+    text-align: center;
+    padding-left:5px;
+}
+
+.heading_td{
+    width:70%;
+    background:#094124;
+    color:white;
+    text-align:left;
+    padding-left:10px;
+ padding-top:5px;
+    padding-bottom:5px;
+     font-family: 'Abel', sans-serif;
+}
+
+/*Radio*/
+
+.radio_css{
+    color:#921d6c;
+    background:#ff0000;
+}

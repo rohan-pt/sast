@@ -1,0 +1,124 @@
+﻿.sign_user_heading
+{
+    width:100%;
+    height:100px;   
+    background:#dffbc5;
+    color:#0094ff;
+    text-align:center;
+    font-weight:bold;
+    font-size:36px;  
+    line-height:100px;
+}
+
+.ft_BG1 {
+    width: 100%;
+    height: 50px;
+    background: #dffbc5;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.main_container_box{
+    width:100%;
+    min-height:500px;
+   
+}
+.left_container {
+    width: 49%;
+    display: inline-block;
+    min-height: 500px;
+   
+    float:left;
+}
+
+.right_container {
+    width: 49%;
+    display: inline-block;
+    min-height: 500px;
+   
+}
+.general_info {
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    border: 1px solid #acf864;
+    margin-top: 30px;
+    background:#ecf5f4;
+    color: #08063c;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'Courier New';
+    line-height: 1.6;
+    padding-left:6px;
+}
+
+.red_span {
+    font-family: 'Courier New';
+    background:#cffbcd;
+    color: red;
+    font-weight:bold;
+}
+
+.dark_span {
+    font-family: 'Courier New';
+    background: #cffbcd;
+    color: #08063c;
+    font-weight: bold;
+}
+
+.label_heading{
+    width:100%;
+    height:auto;
+    text-align:center;
+    color:#08063c;
+    font-size:30px;
+    margin-top:20PX;
+}
+.text_holder{
+    width:100%;
+    height:auto;
+    margin-top:35px;
+   
+}
+
+.text_css {
+    width: 60%;
+    margin-left: 20%;
+    color: #840cbb;
+    background:#f2ebe7;
+    border: #ca520d;
+    height: 30px;
+    padding-bottom: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #e88bf2;
+    font-size:18px;
+}
+
+.btn_holder {
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
+    text-align:center;
+}
+
+.btn_submit_class{
+    width:20%;
+    color:#cffbcd;
+    background:#08063c;
+    height:30px;
+}
+
+    .btn_submit_class:hover {
+        color: #08063c;
+        background: #4cff00;
+        border:none;
+    }
+
+.lbl_class{
+    color:#2a597a;
+    font-size:18px;
+    font-family:Calibri;
+}
